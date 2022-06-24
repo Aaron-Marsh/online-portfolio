@@ -1,0 +1,14 @@
+.projects-title {
+    color:darkblue;
+    text-align: center;
+    font-size: 45px;
+    /* text-shadow: black 1px 1px; */
+    font-family: Nunito;
+    padding-top: 2rem;
+}
+
+.project-cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}

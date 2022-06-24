@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Nunito:wght@200&family=Smooch&display=swap');
 
 * {
     padding: 0px;
@@ -18,11 +18,11 @@ h1 {
     color:darkblue;
     font-size: 70px;
     /* text-shadow: black 1px 1px; */
-    font-family: Nunito;
+    font-family: Smooch;
 }
 .sub-title {
-    font-family: monospace;
-    font-size: 25px;
+    font-family: 'Anek Latin';
+    font-size: 30px;
 }
 
 .landing-image {
