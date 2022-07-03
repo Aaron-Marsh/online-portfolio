@@ -18,7 +18,7 @@ function About() {
                     </div>
                     <div>
                         <img src={japanImage} className="about-image1" alt="Aaron in Japan" />
-                        <p className="about-paragraphs">some text</p>
+                        <p className="about-paragraphs">some more text will need to go here</p>
                     </div>
                 </div>
             </div>
