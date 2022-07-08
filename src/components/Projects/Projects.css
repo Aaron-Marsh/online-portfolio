@@ -3,7 +3,7 @@
     text-align: center;
     font-size: 45px;
     font-family: Nunito;
-    padding-top: 2rem;
+    padding-top: 3rem;
 }
 
 .card {
@@ -33,6 +33,7 @@
     margin-top: 2rem;
 }
 .project-btn {
+    font-family: 'Anek Latin';
     color:white;
     background-color: sienna;
     padding:10px;

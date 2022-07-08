@@ -2,6 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button';
 
+
 import londonJournal from '../../images/londonJournal.png'
 import rabbitHabits from '../../images/rabbitHabits.png'
 import aboutTime from '../../images/aboutTime.png'
@@ -10,6 +11,18 @@ import lap4 from '../../images/lap4.png'
 import './Projects.css';
 
 function Projects() {
+    const londonLink = () => {
+        window.open('https://london-journal.netlify.app/','_blank')
+    }
+    const habitLink = () => {
+        window.open('https://rabbit-habits.netlify.app/','_blank')
+    }
+    const abouttimeLink = () => {
+        window.open('https://about-time.netlify.app/','_blank')
+    }
+
+
+
     return (
         <>
             <h2 className="projects-title">My Projects</h2>
@@ -21,9 +34,7 @@ function Projects() {
                 <Card.Text>
                     I worked on this website for my very first project week at Futureproof! Here, you can anonymously post threads about travelling in London, add your reactions to posts, or even send replies and gifs.
                 </Card.Text>
-                <button className="project-btn">
-                <a href="https://london-journal.netlify.app/" target="_blank">Visit the Site</a>
-                </button>
+                <button className="project-btn" onClick={londonLink}>Visit the Site</button>
                 </Card.Body>
             </Card>
             <Card style={{ width: '40vw' }}>
@@ -33,9 +44,7 @@ function Projects() {
                 <Card.Text>
                     A neat little habit tracker! Create your own account and use it to track whatever daily, weekly, or monthly habits you want to form. Can you hit your goals and keep your streaks going?! (Looks best on mobile sizes!)
                 </Card.Text>
-                <button className="project-btn">
-                <a href="https://rabbit-habits.netlify.app/" target="_blank">Visit the Site</a>
-                </button>
+                <button className="project-btn" onClick={habitLink}>Visit the Site</button>
                 </Card.Body>
             </Card>
             </div>
@@ -48,9 +57,7 @@ function Projects() {
                 <Card.Text>
                     'About Time' is a fun quiz game where correct answers give you more points if you answer fast. Don't run out of time on questions, and invite your friends to see who can stay on top of the live leaderboard!
                 </Card.Text>
-                <button className="project-btn">
-                <a href="https://about-time.netlify.app/" target="_blank">Visit the Site</a>
-                </button>
+                <button className="project-btn" onClick={abouttimeLink}>Visit the Site</button>
                 </Card.Body>
             </Card>
             <Card style={{ width: '40vw' }}>
@@ -60,9 +67,7 @@ function Projects() {
                 <Card.Text>
                     I'm working on this now but check back soon to see my project with a python backend!
                 </Card.Text>
-                <button className="project-btn">
-                Visit the Site
-                </button>
+                <button className="project-btn">Visit the Site</button>
                 </Card.Body>
             </Card>
             </div>

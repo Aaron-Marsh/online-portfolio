@@ -1,10 +1,12 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import Favicon from 'react-favicon'
 
 import Landing from './Landing/Landing'
 import About from './About/About'
 import Projects from './Projects/Projects'
 import Footer from './Footer/Footer';
+import Technologies from './Technologies/Technologies';
 
 import styles from './App.module.css'
 
@@ -13,7 +15,6 @@ const App = () => {
         <>
         <div className={styles.container}>
           
-
           <div className={styles.area} >
             <ul className={styles.circles}>
                     <li></li>
@@ -32,6 +33,7 @@ const App = () => {
         </div>
         <About />
         <Projects />
+        <Technologies />
         <Footer />
         </>
     )

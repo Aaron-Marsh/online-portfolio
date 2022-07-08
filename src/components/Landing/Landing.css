@@ -28,3 +28,26 @@ h1 {
     width: 100vw;
 }
 
+.landing-btn {
+    font-family: 'Anek Latin';
+    color:white;
+    background-color: sienna;
+    padding:10px;
+    border:none;
+    border-radius: 3px;
+    text-decoration: none;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.landing-btn:hover{
+    color: white;
+    transform: translate(0px, -2px)
+}
+
+@media (min-width: 73rem) {
+    .landing-btn {
+        display: none;
+    }
+}
