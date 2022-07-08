@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Nunito:wght@200&family=Smooch&display=swap');
 
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 .heading-box {
     position: absolute;
@@ -19,6 +15,7 @@ h1 {
     font-size: 70px;
     /* text-shadow: black 1px 1px; */
     font-family: Smooch;
+    font-weight: bold;
 }
 .sub-title {
     font-family: 'Anek Latin';
@@ -30,3 +27,4 @@ h1 {
     height: 100vh;
     width: 100vw;
 }
+

@@ -1,6 +1,50 @@
 .footer {
-    background-color:sienna;
-    color:white;
-    margin-top: 2rem;
+    background-color:beige;
+    margin-top: 6rem;
     text-align: center;
+
+}
+
+.contacts-title {
+    color:darkblue;
+    font-size: 30px;
+    font-family: Nunito;
+    padding: 2rem;
+}
+
+.icon {
+    width: 4rem;
+}
+.icon-box {
+    padding: 0rem 2rem;
+}
+.icon:hover{
+    animation: hoverShake 0.20s linear 3;
+}
+
+.credits {
+    font-family: 'Anek Latin';
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    padding: 1rem;
+}
+
+
+@keyframes hoverShake {
+    0% {
+        transform: skew(0deg, 0deg);
+    }
+
+    25% {
+        transform: skew(5deg, 5deg);
+    }
+
+    75% {
+        transform: skew(-5deg, -5deg);
+    }
+
+    100% {
+        transform: skew(0deg, 0deg);
+    }
 }
