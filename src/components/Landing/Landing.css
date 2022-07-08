@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200&family=Nunito:wght@200&family=Smooch&display=swap');
+
+
+.heading-box {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h1 {
+    color:darkblue;
+    font-size: 70px;
+    /* text-shadow: black 1px 1px; */
+    font-family: Smooch;
+    font-weight: bold;
+}
+.sub-title {
+    font-family: 'Anek Latin';
+    font-size: 30px;
+}
+
+.landing-image {
+    object-fit: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
