@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import londonJournal from '../../images/londonJournal.png'
 import rabbitHabits from '../../images/rabbitHabits.png'
 import aboutTime from '../../images/aboutTime.png'
-import lap4 from '../../images/lap4.png'
+import readHerring from '../../images/readHerring.png'
 
 import './Projects.css';
 
@@ -20,8 +20,9 @@ function Projects() {
     const abouttimeLink = () => {
         window.open('https://about-time.netlify.app/','_blank')
     }
-
-
+    const readherringLink = () => {
+        window.open('https://read-herring.netlify.app/','_blank')
+    }
 
     return (
         <>
@@ -61,13 +62,13 @@ function Projects() {
                 </Card.Body>
             </Card>
             <Card style={{ width: '40vw' }}>
-                <Card.Img variant="top" src={lap4} alt="Coming Soon image" />
+                <Card.Img variant="top" src={readHerring} alt="Read Herring website" />
                 <Card.Body>
-                <Card.Title>Lap 4 Project</Card.Title>
+                <Card.Title>Read Herring</Card.Title>
                 <Card.Text>
-                    I'm working on this now but check back soon to see my project with a python backend!
+                    A fun bookclub where you can discover new books, and discuss all your crazy fan theories in our forums. Setup your own profile, add books to your bookshelves, rate, favourite, and review... there's lots to do!
                 </Card.Text>
-                <button className="project-btn">Visit the Site</button>
+                <button className="project-btn" onClick={readherringLink}>Visit the Site</button>
                 </Card.Body>
             </Card>
             </div>
