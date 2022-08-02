@@ -9,7 +9,7 @@ import snowboardingImage from '../../images/snowboarding.jpg';
 function About() {
     return (
         <>
-            <div className="about-card">
+            <div id="about" className="about-card">
                 <h2 className="about-title">About Me</h2>
                 <div className="about-container">
                     <div>

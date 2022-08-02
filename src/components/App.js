@@ -7,13 +7,14 @@ import About from './About/About'
 import Projects from './Projects/Projects'
 import Footer from './Footer/Footer';
 import Technologies from './Technologies/Technologies';
+import Navbar from './Navbar/Navbar'
 
 import styles from './App.module.css'
 
 const App = () => {
     return (
         <>
-        <div className={styles.container}>
+        {/* <div className={styles.container}>
           
           <div className={styles.area} >
             <ul className={styles.circles}>
@@ -27,10 +28,11 @@ const App = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul>
+            </ul> */}
+        <Navbar />
         <Landing />
-            </div>
-        </div>
+            {/* </div>
+        </div> */}
         <About />
         <Projects />
         <Technologies />

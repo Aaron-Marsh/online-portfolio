@@ -1,0 +1,14 @@
+a {
+    text-decoration: none;
+    padding: 2rem;
+    color: sienna;
+}
+
+.navigation {
+    text-align: right;
+    background-color: beige;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 1rem;
+}

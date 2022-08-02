@@ -26,7 +26,7 @@ function Projects() {
 
     return (
         <>
-            <h2 className="projects-title">My Projects</h2>
+            <h2 id="projects" className="projects-title">My Projects</h2>
             <div className="project-cards">
             <Card style={{ width: '40vw' }}>
                 <Card.Img variant="top" src={londonJournal} alt="London Journal website" />
