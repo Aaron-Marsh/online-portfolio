@@ -21,9 +21,7 @@ const Landing = () => {
       document.getElementById("navigation").style.opacity = opacity;
     });
 
-    const portfolioLink = () => {
-      window.open('https://aaronmarsh.netlify.app/','_blank')
-    }
+    
   
   // useEffect(()=>{
     
@@ -34,7 +32,7 @@ const Landing = () => {
   
     return (
         <>
-        {/* <button id="mainsite-btn" className="landing-btn" onClick={portfolioLink}>Cohorts? Go to Main Site ➞</button> */}
+        
         <div className="heading-box">
           <h1 id="main-title">Aaron Marsh</h1>
           <h2  id="landing-subtitle" className="sub-title">Futureproof Tech Trainee</h2>

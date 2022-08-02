@@ -2,6 +2,8 @@ a {
     text-decoration: none;
     padding: 2rem;
     color: sienna;
+    font-family: 'Anek Latin';
+    font-size: 22px;
 }
 
 .navigation {
@@ -11,4 +13,28 @@ a {
     width: 100%;
     z-index: 1;
     padding: 1rem;
+}
+
+.landing-btn {
+    font-family: 'Anek Latin';
+    color:white;
+    background-color: sienna;
+    padding:10px;
+    border:none;
+    border-radius: 3px;
+    text-decoration: none;
+    position: absolute;
+    top: 0.7rem;
+    left: 1rem;
+}
+
+.landing-btn:hover{
+    color: white;
+    transform: translate(0px, -2px)
+}
+
+@media (min-width: 73rem) {
+    .landing-btn {
+        display: none;
+    }
 }

@@ -29,6 +29,19 @@ const App = () => {
                     <li></li>
                     <li></li>
             </ul> */}
+            <section>
+
+            <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+            </section>
         <Navbar />
         <Landing />
             {/* </div>
