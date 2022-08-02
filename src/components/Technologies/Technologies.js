@@ -6,7 +6,7 @@ import './Technologies.css'
 function Technologies() {
     return(
         <>
-            <h2 className="technologies-title">Technologies I've Worked With</h2>
+            <h2 id="technologies" className="technologies-title">Technologies I've Worked With</h2>
             <img src={technologiesUsed} className="technologies-used" alt="Technologies used" />
         
         </>

@@ -7,7 +7,7 @@ import githubIcon from '../../images/githubSienna.png'
 const Footer = () => {
     return (
         <>
-            <div className="footer">
+            <div id="contact" className="footer">
             <h3 className="contacts-title">Contact Me</h3>
             <a href="https://www.linkedin.com/in/aaron-marsh98/" className="icon-box" target="_blank"><img src={linkedinIcon} alt="LinkedIn" className="icon" /></a>
             <a href="https://github.com/Aaron-Marsh" className="icon-box"  target="_blank" ><img src={githubIcon} alt="GitHub" className="icon" /></a>

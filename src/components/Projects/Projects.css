@@ -54,15 +54,6 @@
     animation: hoverShake 0.20s linear 3;
 }
 
-a{
-    text-decoration: none;
-    color: white;
-}
-
-a:hover {
-    color: white;
-}
-
 @keyframes hoverShake {
     0% {
         transform: skew(0deg, 0deg);
