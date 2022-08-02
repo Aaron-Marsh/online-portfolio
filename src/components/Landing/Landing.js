@@ -4,12 +4,14 @@ import './Landing.css'
 
 const Landing = () => {
     
-    const checkpoint = 800;
+    const checkpoint = window.innerHeight;
     let opacity = 1;
+    console.log(window.innerHeight)
+    console.log(screen.height)
     
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
-      if (currentScroll <= checkpoint) {
+      if (currentScroll < checkpoint) {
         opacity = 1 - currentScroll / checkpoint;
         document.getElementById("navigation").style.display = '';
     } else {
