@@ -14,38 +14,20 @@ import styles from './App.module.css'
 const App = () => {
     return (
         <>
-        {/* <div className={styles.container}>
-          
-          <div className={styles.area} >
-            <ul className={styles.circles}>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul> */}
             <section>
-
-            <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </section>
         <Navbar />
         <Landing />
-            {/* </div>
-        </div> */}
         <About />
         <Projects />
         <Technologies />

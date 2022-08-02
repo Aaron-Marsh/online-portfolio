@@ -4,6 +4,12 @@ a {
     color: sienna;
     font-family: 'Anek Latin';
     font-size: 22px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a:hover {
+    color: darkblue;
 }
 
 .navigation {
@@ -38,3 +44,16 @@ a {
         display: none;
     }
 }
+
+@media (max-width: 51rem) {
+    #contact-link {
+        display: none;
+    }
+}
+
+@media (max-width: 41rem) {
+    a {
+        visibility: hidden;
+    }
+}
+
