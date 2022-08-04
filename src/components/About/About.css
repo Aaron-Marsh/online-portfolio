@@ -28,6 +28,10 @@
     animation: tiltIn1 0.2s;
     animation-fill-mode: forwards;
 }
+.about-image1:checked {
+    animation: rotate360 1s;
+    animation-fill-mode: forwards;
+}
 
 .about-image2 {
     max-width: 400px;
@@ -38,8 +42,13 @@
     animation: tiltOut2 0.2s;
 }
 
-.about-image2:hover {
+.about-image2-hover:hover {
     animation: tiltIn2 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.rotate {
+    animation: rotate360 2s;
     animation-fill-mode: forwards;
 }
 
@@ -47,6 +56,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
 }
 
 .about-paragraphs {
@@ -100,3 +110,56 @@
         transform: rotate(1deg);
     }
 }
+
+@keyframes rotate360 {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    80% {
+        transform: rotate(-370deg);
+    }
+    92% {
+        transform: rotate(-355deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+@keyframes bang {
+    from {
+      transform: translate3d(0,0,0);
+      opacity: 1;
+    }
+  }
+  .confetti {
+    z-index: 1;
+    position: relative;
+    top: 12rem;
+    left: 14.5rem;
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+    
+    i {
+      position: absolute;
+      display: block;
+      left: 50%;
+      top: 0;
+      width: 3px;
+      height: 8px;
+      background: red;
+      opacity: 0;
+    }
+  
