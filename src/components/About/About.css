@@ -27,10 +27,6 @@
     animation: tiltIn1 0.2s;
     animation-fill-mode: forwards;
 }
-.about-image1:checked {
-    animation: rotate360 1s;
-    animation-fill-mode: forwards;
-}
 
 .about-image2 {
     max-width: 400px;
@@ -75,7 +71,6 @@
     top: 1.5rem;
     left: 24rem;
     transform: rotate(20deg);
-    /* border: 1px red solid; */
 }
 
 .project-btn:hover{
