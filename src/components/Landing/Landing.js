@@ -6,8 +6,6 @@ const Landing = () => {
     
     const checkpoint = window.innerHeight;
     let opacity = 1;
-    console.log(window.innerHeight)
-    console.log(screen.height)
     
     window.addEventListener("scroll", () => {
       const currentScroll = window.pageYOffset;
