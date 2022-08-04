@@ -14,7 +14,6 @@
     padding-top: 3rem;
 }
 
-
 .about-image1 {
     max-width: 400px;
     height:auto;
@@ -65,6 +64,18 @@
     font-family: 'Anek Latin';
     font-size: 22px;
     text-align: justify;
+}
+
+.click-me {
+    font-family: 'Anek Latin';
+    font-size: 18px;
+    height:0px;
+    width:5rem;
+    position: relative;
+    top: 1.5rem;
+    left: 24rem;
+    transform: rotate(20deg);
+    /* border: 1px red solid; */
 }
 
 .project-btn:hover{
@@ -126,14 +137,6 @@
         transform: rotate(-360deg);
     }
 }
-
-
-
-
-
-
-
-
 
 @keyframes bang {
     from {
